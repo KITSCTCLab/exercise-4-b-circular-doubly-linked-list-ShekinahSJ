@@ -15,4 +15,11 @@ for i in range(length_of_circular_linked_list):
     break
   for i in linkedlist:
     print(i,end=' ')"""
-print(length_of_circular_linked_list)
+for i in range(length_of_circular_linked_list):
+  for j in range(1,length_of_circular_linked_list):
+    if i==j:
+      break
+    else:
+      count++
+   
+print(count)
