@@ -16,7 +16,7 @@ else:
     if circular_linked_list[0]!=circular_linked_list[i]:
       count+=1
       linklist.append(circular_linked_list[i])
-    else:
+    elif circular_linked_list[0]==circular_linked_list[i]:
       break
    
   print(count)
