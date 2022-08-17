@@ -21,5 +21,8 @@ for i in range(length_of_circular_linked_list):
       break
     else:
       count+=1
+      linklist.append(circular_linked_list[i])
    
 print(count)
+for i linklist:
+  print(i,end=' ')
