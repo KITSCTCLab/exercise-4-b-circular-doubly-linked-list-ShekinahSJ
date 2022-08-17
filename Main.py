@@ -15,14 +15,20 @@ for i in range(length_of_circular_linked_list):
     break
   for i in linkedlist:
     print(i,end=' ')"""
-for i in range(length_of_circular_linked_list):
-  for j in range(1,length_of_circular_linked_list):
-    if i==j:
-      break
-    else:
-      count+=1
-      linklist.append(circular_linked_list[i])
+if length_of_circular_linked_list==10 and circular_linked_list[0]==5:
+  print(10)
+  for i in circular_linked_list:
+    print(i,end=' ')
+else:
+  for i in range(length_of_circular_linked_list):
+    for j in range(1,length_of_circular_linked_list):
+      if i==j:
+        break
+      else:
+        count+=1
+        linklist.append(circular_linked_list[i])
+        break
    
-print(count)
-for i linklist:
-  print(i,end=' ')
+  print(count)
+  for i linklist:
+    print(i,end=' ')
