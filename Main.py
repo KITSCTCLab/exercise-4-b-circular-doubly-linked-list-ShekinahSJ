@@ -30,5 +30,5 @@ else:
         break
    
   print(count)
-  for i linklist:
+  for i in linklist:
     print(i,end=' ')
