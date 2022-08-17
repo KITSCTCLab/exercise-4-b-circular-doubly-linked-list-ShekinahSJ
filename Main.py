@@ -20,6 +20,6 @@ for i in range(length_of_circular_linked_list):
     if i==j:
       break
     else:
-      count++
+      count+=1
    
 print(count)
