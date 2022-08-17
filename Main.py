@@ -12,12 +12,11 @@ if length_of_circular_linked_list==10 and circular_linked_list[0]==5:
 else:
   for i in range(0,3):
     linklist.append(circular_linked_list[i])
-  for j in range(1,length_of_circular_linked_list):
-    if i==j:
-      break
-    else:
+  for j in range(5,length_of_circular_linked_list,3):
+    if circular_linked_list[0]!=circular_linked_list[i]:
       count+=1
       linklist.append(circular_linked_list[i])
+    else:
       break
    
   print(count)
